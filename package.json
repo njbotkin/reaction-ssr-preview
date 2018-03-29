@@ -1,0 +1,22 @@
+{
+  "name": "reaction-ssr-preview",
+  "version": "0.0.1",
+  "description": "Reaction Commerce plugin that provides an extremely simple SSR Preview during client bundle download and initialization",
+  "main": "register.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njbotkin/reaction-ssr-preview.git"
+  },
+  "dependencies": {
+    "prerender": "^5.3.1",
+    "request": "^2.85.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cache-manager": "^2.9.0"
+  },
+  "keywords": [],
+  "author": "njbotkin",
+  "license": "GPL-3.0"
+}
