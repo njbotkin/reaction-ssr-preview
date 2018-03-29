@@ -1,4 +1,4 @@
-Runs a prerender server to render previews of Reaction Commerce pages, and saves them in an in-memory cache.  
+Runs a prerender server to render previews of Reaction Commerce pages, saves them in an in-memory cache, and serves the previews to clients while they wait for the bundle to download/initialize.
 
 ![screencap](screencap.gif)
 
