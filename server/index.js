@@ -14,7 +14,7 @@ import injectBody from './inject-body'
 
 Hooks.Events.add("afterCoreInit", () => {
 
-	const { settings } = Packages.findOne({ name: "ssr-preview" })
+	const { settings } = Packages.findOne({ name: "reaction-ssr-preview" })
 
 	const server = prerender({
 		chromeLocation: settings.chromeLocation,

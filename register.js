@@ -2,7 +2,7 @@ import { Reaction } from "/server/api";
 
 Reaction.registerPackage({
   label: "SSR Preview",
-  name: "ssr-preview",
+  name: "reaction-ssr-preview",
   icon: "fa fa-building",
   autoEnable: true,
   settings: {
