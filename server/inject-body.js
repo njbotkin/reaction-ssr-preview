@@ -22,7 +22,6 @@ export default function injectBody(settings) {
 		for(var i = 0; i < mutations.length; i++) {
 			for(var i2 = 0; i2 < mutations[i].addedNodes.length; i2++) {
 				if(mutations[i].addedNodes[i2].id === 'react-root') {
-					console.log('WE GOT COMPANY')
 					setTimeout(removePreview, ` + settings.replaceDelay + `) // takes a while for react to render
 					observer.disconnect()
 					return
